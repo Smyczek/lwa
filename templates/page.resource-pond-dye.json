@@ -1,0 +1,250 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "custom_class": "",
+        "hide_page_title": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "2788020b-81ac-4ae8-8441-095b63a80928": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-0": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/youtu.be\/x1K_2mIGt60",
+            "video_height": true,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-1": {
+          "type": "column",
+          "settings": {
+            "video": "",
+            "video_height": false,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Pond Dye not only makes your pond water look beautiful, but it also provides many benefits for your pond’s ecosystem! Below we have questions past customers have asked and blogs regarding the use of pond dye.<\/p>",
+            "link_label": "Pond Dye Products",
+            "link": "https:\/\/www.livingwateraeration.com\/products\/trublu-concentrated-pond-dye-1-quart-aqua-blue",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-0",
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-1"
+      ],
+      "settings": {
+        "title": "POND DYE RESOURCES",
+        "heading_size": "h1",
+        "heading_type": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "11b0f711-c186-4b07-807f-42c203a7844f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PondDye-living-water-aeration.webp",
+            "video": "",
+            "video_height": false,
+            "title": "What Are the Benefits of Using Pond Dye?",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/what-is-the-benefit-of-using-pond-dye-in-a-pond",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Healthy_Pond_Ecosystem.jpg",
+            "video": "",
+            "video_height": false,
+            "title": "Create and Maintain a Healthy Pond Ecosystem",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/create-maintain-healthy-pond-ecosystem",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "4a78dd7f-1fdd-4f69-84d8-2c6e7d930b4e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-1_350x350_crop_center_8c7edbf6-1b2f-4b17-a81a-03f9139d2a64.webp",
+            "video": "",
+            "video_height": false,
+            "title": "How Can You Prevent Summer Fish Kills?",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/how-can-you-prevent-summer-fish-kills",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "b6d13447-9de2-4aeb-9fe5-0b3f875341dd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PondCleanUp.webp",
+            "video": "",
+            "video_height": false,
+            "title": "How Do I Get Rid of Green Pond Water?",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/how-do-i-get-rid-of-green-pond-water",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-1",
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-0",
+        "4a78dd7f-1fdd-4f69-84d8-2c6e7d930b4e",
+        "b6d13447-9de2-4aeb-9fe5-0b3f875341dd"
+      ],
+      "settings": {
+        "title": "Blog Posts",
+        "heading_size": "h2",
+        "heading_type": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f9b57881-edbc-4e64-b10a-c213419faaf9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1. Will TruBlue pond dye hurt my fish?",
+            "icon": "none",
+            "row_content": "<p>Our pond dye is guaranteed safe and non-toxic. It is safe for fish and actually can help your fish greatly.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "2. How much pond dye do I need for my pond?",
+            "icon": "none",
+            "row_content": "<p>1 Quart colors up to 1 acre of pond.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "3. Will pond dye help brown water?",
+            "icon": "none",
+            "row_content": "<p>Yes! It really beautifies your pond by giving it a photogenic blue color.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "4. What are the benefits of pond dye?",
+            "icon": "none",
+            "row_content": "<p>It shades your pond and helps protect your fish from the sun during hot summers. It also protects your fish from predators like birds and others.<\/p>",
+            "page": ""
+          }
+        },
+        "2c9f9027-8620-47b8-bc3e-9b8da5ce35e0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "5. What are the differences between Aqua Blue and Midnight Blue?",
+            "icon": "none",
+            "row_content": "<p>Aqua blue is more similar to the color of ocean water, while midnight blue is a darker shade of blue.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-0",
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-1",
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-2",
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-3",
+        "2c9f9027-8620-47b8-bc3e-9b8da5ce35e0"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c0b51a08-7f31-4203-bbb4-e0162510b9f4": {
+      "type": "search-section",
+      "settings": {
+        "subfixclass": "",
+        "margin_block": "",
+        "padding_block": "",
+        "serach_heading": "Search Living Water Database"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2788020b-81ac-4ae8-8441-095b63a80928",
+    "11b0f711-c186-4b07-807f-42c203a7844f",
+    "f9b57881-edbc-4e64-b10a-c213419faaf9",
+    "c0b51a08-7f31-4203-bbb4-e0162510b9f4"
+  ]
+}

@@ -1,0 +1,40 @@
+<div class="center">
+  {% if product.metafields.custom.not_free_shipping.value != true %}
+  <h2 class="shipping-message">
+    <span data-tippy-content="We offer free shipping on all orders over $99. Reimbursement of shipping charges may be applicable for returns. " aria-describedby="ui-id-50">Free Shipping on Orders Over $99</span>
+  </h2>
+  {% endif %}
+  <div class="trust-bar">
+    <span data-tippy-content="We guarantee the lowest price for all items on our website. We will match any competitors price. The Best Price Guarantee ensures you will have the best price up to 30 days after purchase. ">Best Price Guarantee
+     <svg  class="icon icon-help" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px"><path d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 25 11 A 3 3 0 0 0 22 14 A 3 3 0 0 0 25 17 A 3 3 0 0 0 28 14 A 3 3 0 0 0 25 11 z M 21 21 L 21 23 L 22 23 L 23 23 L 23 36 L 22 36 L 21 36 L 21 38 L 22 38 L 23 38 L 27 38 L 28 38 L 29 38 L 29 36 L 28 36 L 27 36 L 27 21 L 26 21 L 22 21 L 21 21 z"/></svg>
+    </span>
+    <span class="divider-vertical"></span>
+    <span data-tippy-content="All items may be returned for a refund within 30 days of purchase. Items may be subject to a 10% restocking fee and reimbursement of free shipping may be applicable. Contact us via email at sales@livingwateraeration.com for instructions on how to return an item. ">Return Policy
+      <svg class="icon icon-help" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px"><path d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 25 11 A 3 3 0 0 0 22 14 A 3 3 0 0 0 25 17 A 3 3 0 0 0 28 14 A 3 3 0 0 0 25 11 z M 21 21 L 21 23 L 22 23 L 23 23 L 23 36 L 22 36 L 21 36 L 21 38 L 22 38 L 23 38 L 27 38 L 28 38 L 29 38 L 29 36 L 28 36 L 27 36 L 27 21 L 26 21 L 22 21 L 21 21 z"/></svg>
+    </span>
+  </div>
+</div>
+
+<div class="product-messages">
+  <div class="product-message instant-redomendation-btn">
+    <i class="icon icon-recommendation"></i>
+    <a class="chat-button stretched-link" href="https://share.hsforms.com/1y2mWPJbLR325J8-QjUMvJwdd5ww" target="_blank"><span>Get Instant Aerator Recommendation</span></a>
+  </div>
+  <div class="product-message pond-btn">
+      <i class="icon icon-calc"></i>
+      <div>
+        <a class="stretched-link" href="/pages/pond-calculator" target="_blank">
+          <span>Pond Calculator</span><br>
+          <small>(Surface Area and Volume)</small>
+        </a>
+      </div>
+  </div>
+</div>
+
+<div style="display:none">
+  <p>{{ product.id }}</p>
+  <p>{% if product.metafields.custom.not_free_shipping.value == true %}True{% endif %}</p>
+  <p>{% if product.metafields.custom.not_free_shipping.value == false %}False{% endif %}</p>
+  <p>{{ product.metafields.custom.not_free_shipping.value }}</p>
+  <script>console.log({{product.metafields.custom.not_free_shipping.value | json }})</script>
+</div>

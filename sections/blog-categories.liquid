@@ -1,0 +1,132 @@
+{% style %}
+  .cats {
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+    .mt-30 {
+      margin-top: 30px;
+    }
+  
+  .category {
+    width: 16.6%;
+    padding: 10px;
+  }
+
+.blog-cats h3 {
+  font-size: 26px;
+}
+.category a {
+      text-decoration: none;
+}
+  
+  .category h6 {
+        margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+
+  }
+
+  .category img:hover {
+    opacity: 0.9;
+  }
+  
+  .category img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+
+  .blog-cats {
+    background: white;
+        padding: 10px 40px;
+  }
+
+  @media (max-width: 1024px) {
+    .category {
+    width: 33%;
+    padding: 10px;
+}
+  }
+
+    @media (max-width: 450px) {
+    .category {
+    width: 100%;
+    padding: 10px;
+}
+  }
+{% endstyle %}
+
+<div class="page-width mt-30">
+  <div class="blog-cats ">
+    {% if section.settings.title != blank %}
+
+      <h3>{{ section.settings.title }}</h3>
+  {% endif %}
+      <div class="cats">
+  {% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'category' %}
+      <div class="category"> 
+      <a href="{{ block.settings.url }}">
+         <img alt="Category Blog" src="{{ block.settings.image | image_url: width: 600  }}">
+     
+       <h6>{{ block.settings.text }}</h6>
+         </a>
+      </div>
+  {% endcase %}
+{% endfor %}
+</div>
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Blog Categories",
+    "settings": [
+          {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+    ],
+      "blocks": [
+     {
+       "name": "Category",
+       "type": "category",
+       "settings": [
+         {
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+           {
+           "type": "text",
+           "id": "text",
+           "label": "Title"
+         },
+          {
+           "type": "url",
+           "id": "url",
+           "label": "Link"
+         }
+       ]
+     }
+  ],
+      "presets": [
+    {
+      "name": "Blog Categories"
+    
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

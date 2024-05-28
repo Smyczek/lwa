@@ -1,0 +1,324 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "custom_class": "",
+        "hide_page_title": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "2788020b-81ac-4ae8-8441-095b63a80928": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-0": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/youtu.be\/1yumzC6HL28",
+            "video_height": true,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-1": {
+          "type": "column",
+          "settings": {
+            "video": "",
+            "video_height": false,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Fountains can aerate and add a beautiful ascetic feature while providing a great vital resource for the ecosystem of your pond. While optimal for shallow ponds, these fountains will provide a soothing sound and help with the overall water quality. Below we have questions past customers have asked, blogs on specific topics, and videos regarding fountains!<\/p>",
+            "link_label": "Free Consultation",
+            "link": "https:\/\/www.livingwateraeration.com\/pages\/contact-us",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-0",
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-1"
+      ],
+      "settings": {
+        "title": "FOUNTAIN RESOURCES",
+        "heading_size": "h1",
+        "heading_type": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "11b0f711-c186-4b07-807f-42c203a7844f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-1_350x350_crop_center_1c886119-df37-4a09-b1de-7435003648cc.jpg",
+            "video": "",
+            "video_height": false,
+            "title": "A Complete Guide on How to Choose a Pond Fountain",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/a-complete-guide-on-how-to-choose-a-pond-fountain",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image-1_350x350_crop_center_d6b261f6-6a1b-487f-b4b4-7657cb1957cf.jpg",
+            "video": "",
+            "video_height": false,
+            "title": "Fountain Aerator vs Underwater Aerator: What's the Difference?",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/fountain-aerator-vs-underwater-aerator-whats-the-difference",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "4a78dd7f-1fdd-4f69-84d8-2c6e7d930b4e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lasma-artmane-mgeKH-JcwyM-unsplash_350x350_crop_center_dfe1ccb2-6617-40ba-a108-1b14465e2b4b.webp",
+            "video": "",
+            "video_height": false,
+            "title": "How Do You Secure a Pond Fountain?",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/how-do-you-secure-a-pond-fountain",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "b6d13447-9de2-4aeb-9fe5-0b3f875341dd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Healthy_Pond_Ecosystem.jpg",
+            "video": "",
+            "video_height": false,
+            "title": "Create and Maintain a Healthy Pond Ecosystem",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/create-maintain-healthy-pond-ecosystem",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-0",
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-1",
+        "4a78dd7f-1fdd-4f69-84d8-2c6e7d930b4e",
+        "b6d13447-9de2-4aeb-9fe5-0b3f875341dd"
+      ],
+      "settings": {
+        "title": "Blog Posts",
+        "heading_size": "h2",
+        "heading_type": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "37f69adf-6c0a-4981-9103-fd21adb805b4": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-0": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/youtu.be\/lWTqbiKeqOo",
+            "video_height": false,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-1": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/youtu.be\/ClaM4cJS6wc",
+            "video_height": false,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-2": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/youtu.be\/nLfFw5J6zvk",
+            "video_height": false,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-0",
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-1",
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-2"
+      ],
+      "settings": {
+        "title": "Videos",
+        "heading_size": "h2",
+        "heading_type": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f9b57881-edbc-4e64-b10a-c213419faaf9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1. How deep can fountains aerate ponds?",
+            "icon": "none",
+            "row_content": "<p>It does add oxygen to ponds up to about 6 feet deep. If your pond is deeper than 6 feet you may want to consider diffused aeration (bottom aeration). However if your pond is 6 foot or less you can use a fountain style aerator to aerate the entire thing.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "2. Which size fountain should I buy for my pond?",
+            "icon": "none",
+            "row_content": "<p>The general rule of thumb when sizing these for a pond is 1.5 HP per acre.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "3. Do most fountains float?",
+            "icon": "none",
+            "row_content": "<p>Yes, most include float and mooring ropes to keep the unit in place.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "4. During the winter, do you need to take your fountain out of the water?",
+            "icon": "none",
+            "row_content": "<p>It depends, if it gets cold enough where you are that the pond actually ices over, then yes you will want to store it in a dry area for winter. However, in the south where ponds do not ice over you can leave them installed year round.<\/p>",
+            "page": ""
+          }
+        },
+        "2c9f9027-8620-47b8-bc3e-9b8da5ce35e0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "5. My pond has a lot of floating green algae. Will a fountain have problems with the pump clogging?",
+            "icon": "none",
+            "row_content": "<p>No you will not there is a bottom screen included with all fountains for protection. Anything that gets past the screen will be shredded like paper.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-0",
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-1",
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-2",
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-3",
+        "2c9f9027-8620-47b8-bc3e-9b8da5ce35e0"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c0b51a08-7f31-4203-bbb4-e0162510b9f4": {
+      "type": "search-section",
+      "settings": {
+        "subfixclass": "",
+        "margin_block": "",
+        "padding_block": "",
+        "serach_heading": "Search Living Water Database"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2788020b-81ac-4ae8-8441-095b63a80928",
+    "11b0f711-c186-4b07-807f-42c203a7844f",
+    "37f69adf-6c0a-4981-9103-fd21adb805b4",
+    "f9b57881-edbc-4e64-b10a-c213419faaf9",
+    "c0b51a08-7f31-4203-bbb4-e0162510b9f4"
+  ]
+}

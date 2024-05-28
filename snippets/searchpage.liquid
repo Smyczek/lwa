@@ -1,0 +1,12 @@
+<form method="get" id="velaSearchbox" class="formSearchCustom" action="/search">
+	<div class="input-group">
+		<input type="hidden" name="type" value="product" />
+		<input type="search" name="query" value="{{ search.terms | escape }}" placeholder="Search our store" autocomplete="off" class="field ysw-search-instant-search-input" />
+		<span class="input-group-btn">
+			<button type="submit" class="button">
+			  	<span class="fa fa-search"></span>
+			  	<span class="btnSearchText">SEARCH</span>
+			</button>
+		</span>
+	</div>
+</form>

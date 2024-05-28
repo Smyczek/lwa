@@ -1,0 +1,178 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "custom_class": "",
+        "hide_page_title": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "026d3ee3-813e-41a7-86cb-dfd4d9b6005a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16680443347186__026d3ee3-813e-41a7-86cb-dfd4d9b6005a-1681383484fce6c648-0": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/youtu.be\/9nFo0Nf604U",
+            "video_height": true,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680443347186__026d3ee3-813e-41a7-86cb-dfd4d9b6005a-1681383484fce6c648-1": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_height": false,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Here in the resource center, we want to help you create the best pond possible! Below you will find a variety of videos, articles, and FAQs that will help you feel confident to create a healthy pond. Enter your email below to stay up to date on the best practices!<\/p>",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": "<div class=\"resource-newsletter\">\n                          <form action=\"\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" target=\"_blank\" class=\"formNewsletter clearfix\" _lpchecked=\"1\">\n                            <label>Signup for Pond News<\/label>\n                              <div class=\"klaviyo-form-LUNQrY\"><\/div>\n                         <\/form>\n                        <\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16680443347186__026d3ee3-813e-41a7-86cb-dfd4d9b6005a-1681383484fce6c648-0",
+        "template--16680443347186__026d3ee3-813e-41a7-86cb-dfd4d9b6005a-1681383484fce6c648-1"
+      ],
+      "settings": {
+        "title": "POND RESOURCES",
+        "heading_size": "h0",
+        "heading_type": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "fef6ad2a-8f03-465f-99ca-904445d8eb11": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16680443347186__fef6ad2a-8f03-465f-99ca-904445d8eb11-1681383484fce6c648-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Aerators-living-water-aeration.webp",
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_height": false,
+            "title": "Aerators",
+            "subtitle": "",
+            "text": "<p>Are you looking to install an aerator or fountain in your pond to improve the water quality?<\/p>",
+            "link_label": "Aerator Resourcs",
+            "link": "https:\/\/www.livingwateraeration.com\/pages\/aeration-resources",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680443347186__fef6ad2a-8f03-465f-99ca-904445d8eb11-1681383484fce6c648-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Fountains.webp",
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_height": false,
+            "title": "<strong>Fountains<\/strong>",
+            "subtitle": "",
+            "text": "<p>Are you looking to enjoy the sight and sound of a fountain while helping improve your pond water?<\/p>",
+            "link_label": "Fountain Resources",
+            "link": "https:\/\/www.livingwateraeration.com\/pages\/fountain-resources",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680443347186__fef6ad2a-8f03-465f-99ca-904445d8eb11-1681383484fce6c648-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PondCleanUp.webp",
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_height": false,
+            "title": "<strong>Pond CleanUp<\/strong>",
+            "subtitle": "",
+            "text": "<p>Are you looking to beautify your pond and help create a better environment for your fish?<\/p>",
+            "link_label": "CleanUp Resources",
+            "link": "https:\/\/www.livingwateraeration.com\/pages\/pond-clean-up",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "755e9147-b1c3-474d-8287-79a54f461893": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PondDye-living-water-aeration_914cfc10-81cd-4da7-9ba2-18dc5415b357.webp",
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_height": false,
+            "title": "<strong>Pond Dye<\/strong>",
+            "subtitle": "",
+            "text": "<p>Are you looking to beautify your pond and help create a better environment for your fish?<\/p>",
+            "link_label": "Pond Dye Resources",
+            "link": "https:\/\/www.livingwateraeration.com\/pages\/pond-dye",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680443347186__fef6ad2a-8f03-465f-99ca-904445d8eb11-1681383484fce6c648-0",
+        "template--16680443347186__fef6ad2a-8f03-465f-99ca-904445d8eb11-1681383484fce6c648-1",
+        "template--16680443347186__fef6ad2a-8f03-465f-99ca-904445d8eb11-1681383484fce6c648-2",
+        "755e9147-b1c3-474d-8287-79a54f461893"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_type": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "64313efe-2a4d-45ee-b25a-ba24ebcf2c05": {
+      "type": "search-section",
+      "settings": {
+        "subfixclass": "",
+        "margin_block": "",
+        "padding_block": "",
+        "serach_heading": "Search Living Water Database"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "026d3ee3-813e-41a7-86cb-dfd4d9b6005a",
+    "fef6ad2a-8f03-465f-99ca-904445d8eb11",
+    "64313efe-2a4d-45ee-b25a-ba24ebcf2c05"
+  ]
+}

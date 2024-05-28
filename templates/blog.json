@@ -1,0 +1,87 @@
+{
+  "sections": {
+    "c6bd027a-fc27-4981-bc64-39fed157d7a0": {
+      "type": "blog-categories",
+      "blocks": {
+        "84224567-b9f6-4df3-b056-d278e368617a": {
+          "type": "category",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pond-aeration_4fca65e2-e493-413d-8cf7-97f9bfd0ec7e.jpg",
+            "text": "Aeration System",
+            "url": "https:\/\/www.livingwateraeration.com\/blogs\/news\/tagged\/aeration"
+          }
+        },
+        "5a6fc7aa-be4e-4d41-973a-c594bcbeacef": {
+          "type": "category",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Depositphotos_73555753_S.webp",
+            "text": "Pond Management",
+            "url": "https:\/\/www.livingwateraeration.com\/blogs\/news\/tagged\/Category_Pond-Management"
+          }
+        },
+        "074f3724-b607-4869-aa38-a61fad4f8537": {
+          "type": "category",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/123.webp",
+            "text": "Gardening",
+            "url": "https:\/\/www.livingwateraeration.com\/blogs\/news\/tagged\/Category_Gardening"
+          }
+        },
+        "7552749c-32d0-4987-a8c1-594497a50439": {
+          "type": "category",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/38_08b1aed3-0eac-4bf3-95aa-afed4b902752.jpg",
+            "text": "Outdoors",
+            "url": "https:\/\/www.livingwateraeration.com\/blogs\/news\/tagged\/Category_Outdoors"
+          }
+        },
+        "663b53b3-7dd7-4405-aaec-644363555b4e": {
+          "type": "category",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Depositphotos_316849298_S.webp",
+            "text": "Ponds",
+            "url": "https:\/\/www.livingwateraeration.com\/blogs\/news\/tagged\/Category_Pond"
+          }
+        },
+        "e0427864-fc35-44e8-bc0a-6abf778a9975": {
+          "type": "category",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fig1-koi-tank-01_db26428d-2923-4f12-a76f-d87692a6763f.webp",
+            "text": "Water Gardens",
+            "url": "https:\/\/www.livingwateraeration.com\/blogs\/news\/tagged\/Category_Water-Gardens"
+          }
+        }
+      },
+      "block_order": [
+        "84224567-b9f6-4df3-b056-d278e368617a",
+        "5a6fc7aa-be4e-4d41-973a-c594bcbeacef",
+        "074f3724-b607-4869-aa38-a61fad4f8537",
+        "7552749c-32d0-4987-a8c1-594497a50439",
+        "663b53b3-7dd7-4405-aaec-644363555b4e",
+        "e0427864-fc35-44e8-bc0a-6abf778a9975"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "c6bd027a-fc27-4981-bc64-39fed157d7a0",
+    "main"
+  ]
+}

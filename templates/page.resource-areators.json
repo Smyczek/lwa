@@ -1,0 +1,354 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "custom_class": "",
+        "hide_page_title": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "2788020b-81ac-4ae8-8441-095b63a80928": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-0": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/youtu.be\/9nFo0Nf604U",
+            "video_height": true,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-1": {
+          "type": "column",
+          "settings": {
+            "video": "",
+            "video_height": false,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Pond Aeration is the main source for a healthy pond. An effective pond aeration system will provide a wide range of benefits to the ecosystem of your pond, helping it thrive! Below, we have questions past customers have asked, blogs, and videos on specific topics regarding aeration!<\/p>",
+            "link_label": "Free Consultation",
+            "link": "https:\/\/www.livingwateraeration.com\/pages\/contact-us",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-0",
+        "template--16680284717298__2788020b-81ac-4ae8-8441-095b63a80928-1681380560fa24530e-1"
+      ],
+      "settings": {
+        "title": "AERATION RESOURCES",
+        "heading_size": "h1",
+        "heading_type": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "11b0f711-c186-4b07-807f-42c203a7844f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Benefits_of_Pond_Aeration_350x350_crop_center_7e3cd5b6-2d94-4d6b-99f6-2b3efcac782c.webp",
+            "video": "",
+            "video_height": false,
+            "title": "The Benefits of Pond Aeration",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/benefits-pond-aeration",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "b6d13447-9de2-4aeb-9fe5-0b3f875341dd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Healthy_Pond_Ecosystem.jpg",
+            "video": "",
+            "video_height": false,
+            "title": "Create and Maintain a Healthy Pond Ecosystem",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/create-maintain-healthy-pond-ecosystem",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_1_350x350_crop_center_f19291fb-18f3-41d6-99a6-88a484a25031.webp",
+            "video": "",
+            "video_height": false,
+            "title": "How Does Aeration Help a Pond?",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/how-does-aeration-help-a-pond-2",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "4a78dd7f-1fdd-4f69-84d8-2c6e7d930b4e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_1-1_350x350_crop_center_738b7b18-5ba1-41d4-bf7c-c76b29bac571.webp",
+            "video": "",
+            "video_height": false,
+            "title": "What Does Aeration Do to Water?",
+            "subtitle": "",
+            "text": "",
+            "link_label": "Read More",
+            "link": "https:\/\/www.livingwateraeration.com\/blogs\/news\/what-does-aeration-do-to-water",
+            "isButton": true,
+            "col_class": "",
+            "col_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-0",
+        "b6d13447-9de2-4aeb-9fe5-0b3f875341dd",
+        "template--16680284717298__11b0f711-c186-4b07-807f-42c203a7844f-1681339177c047598e-1",
+        "4a78dd7f-1fdd-4f69-84d8-2c6e7d930b4e"
+      ],
+      "settings": {
+        "title": "Blog Posts",
+        "heading_size": "h2",
+        "heading_type": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "37f69adf-6c0a-4981-9103-fd21adb805b4": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-0": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/youtu.be\/dSTr181Yk3c",
+            "video_height": false,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-1": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/youtu.be\/9rbChpW9Apo",
+            "video_height": false,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": ""
+          }
+        },
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-2": {
+          "type": "column",
+          "settings": {
+            "video": "https:\/\/youtu.be\/jwX4HBNk1fI",
+            "video_height": false,
+            "title": "",
+            "subtitle": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "",
+            "col_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-0",
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-1",
+        "template--16680529461490__37f69adf-6c0a-4981-9103-fd21adb805b4-16813883212cfeee40-2"
+      ],
+      "settings": {
+        "title": "Videos",
+        "heading_size": "h2",
+        "heading_type": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f9b57881-edbc-4e64-b10a-c213419faaf9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "1. What are the main benefits of aeration?",
+            "icon": "none",
+            "row_content": "<p>The main benefits of Aeration are your fish stay healthy, eliminates excessive algae, improves pond water quality, helps with the overall destratification of your pond, reduces mosquito activity, removes foul pond smells, reduces bottom sediment, and more!<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "2. What are the main factors when buying an aerator?",
+            "icon": "none",
+            "row_content": "<p>The four key components when buying an aerator are pond depth, pond size, and pond shape. Once you know what aerator to buy you must determine your power source and storage of the pump. This may seem overwhelming but we offer free consultation on this and have categories on our website to help with this!<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "4. How much does it cost to run the aerator in electricity per day?",
+            "icon": "none",
+            "row_content": "<p>Aerators cost an average of $0.50 per day and that consumption is if you ran them 24\/7.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "5. Should the compressor be installed on a pedestal? How high?",
+            "icon": "none",
+            "row_content": "<p>No that is not necessary unless the area near your pond is prone to flash flooding. A pedestal is not necessary but you will definitely want to find some type of enclosure to protect it from the elements.<\/p>",
+            "page": ""
+          }
+        },
+        "2c9f9027-8620-47b8-bc3e-9b8da5ce35e0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "6. How far can a pump be from the aerator?",
+            "icon": "none",
+            "row_content": "<p>In general, You can run up to 1000' feet with no problem. It has plenty of PSI to make the run. You probably will want to consider buying a larger diameter tubing. We usually would recommend 1\/2\" Weighted tubing for a 500+ foot run.<\/p>",
+            "page": ""
+          }
+        },
+        "fa4e57f2-0fcf-4313-9c79-04aac62acdbc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "7. Do pumps become hot while running?",
+            "icon": "none",
+            "row_content": "<p>Yes they do run hot and they are hot to the touch, I would not recommend touching one that has been running for awhile.<\/p>",
+            "page": ""
+          }
+        },
+        "6a983cfa-4a3f-4201-9410-7f03fa1c9268": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "8. How long is the electrical cord for aerator pumps?",
+            "icon": "none",
+            "row_content": "<p>Only about 3 foot long. If you need to go further we recommend running more airline as opposed to using an extension cord<\/p>",
+            "page": ""
+          }
+        },
+        "af3fe6ac-d9ca-46a7-969c-41e2eb6c36cc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "9. Is the compressor waterproof and can it be placed outdoors exposed to the elements?",
+            "icon": "none",
+            "row_content": "<p>No, it is not waterproof. We recommend our deluxe unit if you do not have an enclosure for the compressor.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-0",
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-1",
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-2",
+        "template--16680284717298__f9b57881-edbc-4e64-b10a-c213419faaf9-1681339353267e38ed-3",
+        "2c9f9027-8620-47b8-bc3e-9b8da5ce35e0",
+        "fa4e57f2-0fcf-4313-9c79-04aac62acdbc",
+        "6a983cfa-4a3f-4201-9410-7f03fa1c9268",
+        "af3fe6ac-d9ca-46a7-969c-41e2eb6c36cc"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c0b51a08-7f31-4203-bbb4-e0162510b9f4": {
+      "type": "search-section",
+      "settings": {
+        "subfixclass": "",
+        "margin_block": "",
+        "padding_block": "",
+        "serach_heading": "Search Living Water Database"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2788020b-81ac-4ae8-8441-095b63a80928",
+    "11b0f711-c186-4b07-807f-42c203a7844f",
+    "37f69adf-6c0a-4981-9103-fd21adb805b4",
+    "f9b57881-edbc-4e64-b10a-c213419faaf9",
+    "c0b51a08-7f31-4203-bbb4-e0162510b9f4"
+  ]
+}

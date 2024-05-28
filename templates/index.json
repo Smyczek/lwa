@@ -1,0 +1,588 @@
+{
+  "sections": {
+    "197f6d0b-d60a-4d66-b00d-adf9ada6fe68": {
+      "type": "hero-carousel",
+      "blocks": {
+        "dd583a44-7a84-4b80-b2ef-fd838a10e9d6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pond_1.jpg",
+            "heading": "<h2 class=\"h0\">TURNING PONDS INTO PARADISE<\/h2>\n<p>Transform your pond into a one of <br class=\"small-hide\">kind activity hub that your kids and <br class=\"small-hide\">friends will love!<\/p>",
+            "button_label": "SHOP BEST SELLERS",
+            "link": "shopify:\/\/collections\/all-products",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "slide_bg_color": "",
+            "slide_text_color": "",
+            "btn_text_color": "#1d262d",
+            "btn_bg_color": "#ffffff",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "61fc5577-0084-4c64-a47c-8a4d03882284": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Product-Image-Fountains-Balsam.jpg",
+            "heading": "<h2 class=\"h0\">POND FOUNTAINS<\/h2>\n<p>Commercial And Residential <br class=\"small-hide\">\nPond Fountains<\/p>",
+            "button_label": "SHOP FOUNTAINS",
+            "link": "https:\/\/www.livingwateraeration.com\/collections\/pond-fountains",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "slide_bg_color": "",
+            "slide_text_color": "",
+            "btn_text_color": "",
+            "btn_bg_color": "",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "9565c373-8adf-4fcf-aa11-d94170cafc5f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/KASCO_Defuser_LakeSuperior.gif",
+            "heading": "<h2 class=\"h1\">NOT SURE WHAT AERATOR YOU NEED?<\/h2>\n<p>Let us Help<\/p>",
+            "button_label": "Get Instant Aerator Recommendation",
+            "link": "https:\/\/share.hsforms.com\/1y2mWPJbLR325J8-QjUMvJwdd5ww",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "slide_bg_color": "{{ shop.brand.colors.primary[0].background }}",
+            "slide_text_color": "#ffffff",
+            "btn_text_color": "#1d262d",
+            "btn_bg_color": "#ffffff",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "dd583a44-7a84-4b80-b2ef-fd838a10e9d6",
+        "61fc5577-0084-4c64-a47c-8a4d03882284",
+        "9565c373-8adf-4fcf-aa11-d94170cafc5f"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 7,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "54da8c80-043a-4497-bbb0-83bc0fe92687": {
+      "type": "category-list",
+      "blocks": {
+        "template--16671423201522__54da8c80-043a-4497-bbb0-83bc0fe92687-1679951213903f7bb5-0": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/image_2.jpg",
+            "category_title": "POND AERATION",
+            "category_title_size": "h2",
+            "category_subtitle": "Aeration Systems & Aeration Accessories",
+            "category_link": "shopify:\/\/collections\/pond-aerators"
+          }
+        },
+        "template--16671423201522__54da8c80-043a-4497-bbb0-83bc0fe92687-1679951213903f7bb5-1": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/fountains-cat-img.jpg",
+            "category_title": "POND FOUNTAINS",
+            "category_title_size": "h2",
+            "category_subtitle": "Decorative Display, Aerating Fountains etc.",
+            "category_link": "shopify:\/\/collections\/pond-fountains"
+          }
+        }
+      },
+      "block_order": [
+        "template--16671423201522__54da8c80-043a-4497-bbb0-83bc0fe92687-1679951213903f7bb5-0",
+        "template--16671423201522__54da8c80-043a-4497-bbb0-83bc0fe92687-1679951213903f7bb5-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "columns_order": "normal",
+        "columns_layout": "1",
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "71a20048-7e70-40ee-a0cb-304666c6c166": {
+      "type": "category-list",
+      "blocks": {
+        "template--16671423201522__71a20048-7e70-40ee-a0cb-304666c6c166-167995373775bb8293-0": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/DSC00549_1024x1024_8de37fd8-2c4b-4e0b-8edd-637b525e4078.webp",
+            "category_title": "BENEFICIAL BACTERIA",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/pond-bacteria"
+          }
+        },
+        "template--16671423201522__71a20048-7e70-40ee-a0cb-304666c6c166-167995373775bb8293-1": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/DSC00651-edit_1024x1024_43fd8ea2-7e9f-46de-a754-386ab90a73cb.webp",
+            "category_title": "POND DYE",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/pond-dye"
+          }
+        },
+        "template--16671423201522__71a20048-7e70-40ee-a0cb-304666c6c166-167995373775bb8293-2": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/Jac_before_and_after_clean_and_dirty_algae_pond_7c39ff59-63ae-45dc-8be6-e263530a1c17-edit.jpg",
+            "category_title": "ALGAE & WEED CONTROL",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/pond-algae-and-weed-control"
+          }
+        },
+        "df1e6fb2-d758-4d94-847e-d6281349953a": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/image_4.png",
+            "category_title": "WATER GARDENS",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/water-gardens"
+          }
+        }
+      },
+      "block_order": [
+        "template--16671423201522__71a20048-7e70-40ee-a0cb-304666c6c166-167995373775bb8293-0",
+        "template--16671423201522__71a20048-7e70-40ee-a0cb-304666c6c166-167995373775bb8293-1",
+        "template--16671423201522__71a20048-7e70-40ee-a0cb-304666c6c166-167995373775bb8293-2",
+        "df1e6fb2-d758-4d94-847e-d6281349953a"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "columns_order": "normal",
+        "columns_layout": "1",
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "top-sellers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_txt": "See more",
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "force-accent-btn": true,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "a71a405a-22c9-487b-bd5e-9e0cc177ca19": {
+      "type": "category-list",
+      "blocks": {
+        "template--16671423201522__a71a405a-22c9-487b-bd5e-9e0cc177ca19-1679987844a72de189-0": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/airpro-diffused-aeration-systems-30.gif",
+            "category_title": "Airpro Aeration Systems",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/airpro-diffused-aeration-systems"
+          }
+        },
+        "template--16671423201522__a71a405a-22c9-487b-bd5e-9e0cc177ca19-1679987844a72de189-1": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/airpro-deluxe-pond-aerator-kit-1-2-to-1-acre-ponds-75_460x584_f930e98c-fa60-42fd-8c8a-f770f7488b3b.webp",
+            "category_title": "Airpro Deluxe Aeration Systems",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/airpro-deluxe-pond-aeration-systems"
+          }
+        },
+        "template--16671423201522__a71a405a-22c9-487b-bd5e-9e0cc177ca19-1679987844a72de189-2": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/utdoor-water-solutions-20-deluxe-windmill-pond-aerator-kit-12_460x584_c1164c33-836a-492f-b883-402b2d4a6945.webp",
+            "category_title": "Windmill Aerators",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/windmill-aeration-kits"
+          }
+        },
+        "17c196e0-992c-4157-a125-98e66e0e24fa": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/aermaster-dd-solar-2-pond-aerator-system-35_460x584_09915455-38eb-407b-a7b4-f4fce74e3850.jpg",
+            "category_title": "Solar Aerators",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/solar-powered-pond-aerators"
+          }
+        },
+        "4cea0f32-27ce-4f54-926d-da57a5ab751d": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/kasco-1-2-hp-pond-aerator-80_460x584_f480067d-e97e-4f3b-9bc6-d6966a8d153b.jpg",
+            "category_title": "Surface Aerators",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/kasco-high-oxygen-surface-aerators"
+          }
+        },
+        "fbe97cfe-7fd2-46aa-acd8-4cdfedf27298": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/ScreenShot2020-07-01at3.48.23PM_460x584_2b22e28f-eb10-449a-8b2d-02dbab86a11c.webp",
+            "category_title": "Kasco Diffused Aerators",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/kasco-diffused-pond-aerators"
+          }
+        },
+        "873f9fbd-f0f0-4e50-9d4a-4c8689392034": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/shallow-pond-aerator-kit-for-ponds-up-to-1-2-acre-27_460x584_c2f85cb0-a0a2-49e8-8a7a-0e7502317540.jpg",
+            "category_title": "Shallow Pond Diffused Aerators",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/shallow-pond-aerators"
+          }
+        },
+        "46cc1a8e-af8b-499b-941d-ae21557568bb": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/aeration-accessories.png",
+            "category_title": "Aeration Accessories",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/aeration-accessories"
+          }
+        },
+        "73a08c76-75e9-4bb8-8e52-330040cfefe7": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/kasco-2-hp-display-fountain-pond-aerator-230v-44_460x584_a8c3c45d-f4c2-4ccf-b1e5-46f0cbda2cd2.jpg",
+            "category_title": "Kasco Pond Fountains",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/kasco-pond-fountains"
+          }
+        },
+        "c3a1021b-a122-44f7-b065-9394f33f773e": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/kasco-3-led-light-fountain-lighting-kit-20_460x584_55700662-0c55-4d9b-b8c9-79682832adec.jpg",
+            "category_title": "Kasco Light Kits",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/kasco-fountain-lights"
+          }
+        },
+        "8808f4b8-cad1-46f3-8dc1-312602de9328": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/otterbine-giant-15-hp-triad-fountain-55_460x584_692e8d3b-7dd2-478e-ab3f-4d6e0be2ee2e.jpg",
+            "category_title": "Otterbine Pond Fountains",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/otterbine-pond-fountains"
+          }
+        },
+        "2fa814b0-79ef-4f27-ac9c-11140b29e08f": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/beneficial-pond-bacteria.png",
+            "category_title": "Pond Bacteria",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/pond-bacteria"
+          }
+        },
+        "6bb3fbfe-8d0f-4c03-857f-3eabaa45f606": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/algae_weed-control.png",
+            "category_title": "Pond Dye",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/pond-dye"
+          }
+        },
+        "48459507-6791-4a3e-9d82-411756429600": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/nautique-aquatic-herbicide-2-5-gallons-27_460x584_69859efc-99d2-4e08-9f45-ad94ec09c167.jpg",
+            "category_title": "Algae & Weed Control",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/pond-algae-and-weed-control"
+          }
+        },
+        "b04f9cf2-3413-4ce5-8797-eb8a3b9ce8d1": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/fish-feeders.png",
+            "category_title": "Fish Feeders",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/fish-feeders"
+          }
+        },
+        "79db6c91-973b-43aa-a93d-1ece7fc68f20": {
+          "type": "featured_category",
+          "settings": {
+            "category_image": "shopify:\/\/shop_images\/weed-rakes.png",
+            "category_title": "Weed Rakes",
+            "category_title_size": "h3",
+            "category_subtitle": "",
+            "category_link": "https:\/\/www.livingwateraeration.com\/collections\/weed-rakes"
+          }
+        }
+      },
+      "block_order": [
+        "template--16671423201522__a71a405a-22c9-487b-bd5e-9e0cc177ca19-1679987844a72de189-0",
+        "template--16671423201522__a71a405a-22c9-487b-bd5e-9e0cc177ca19-1679987844a72de189-1",
+        "template--16671423201522__a71a405a-22c9-487b-bd5e-9e0cc177ca19-1679987844a72de189-2",
+        "17c196e0-992c-4157-a125-98e66e0e24fa",
+        "4cea0f32-27ce-4f54-926d-da57a5ab751d",
+        "fbe97cfe-7fd2-46aa-acd8-4cdfedf27298",
+        "873f9fbd-f0f0-4e50-9d4a-4c8689392034",
+        "46cc1a8e-af8b-499b-941d-ae21557568bb",
+        "73a08c76-75e9-4bb8-8e52-330040cfefe7",
+        "c3a1021b-a122-44f7-b065-9394f33f773e",
+        "8808f4b8-cad1-46f3-8dc1-312602de9328",
+        "2fa814b0-79ef-4f27-ac9c-11140b29e08f",
+        "6bb3fbfe-8d0f-4c03-857f-3eabaa45f606",
+        "48459507-6791-4a3e-9d82-411756429600",
+        "b04f9cf2-3413-4ce5-8797-eb8a3b9ce8d1",
+        "79db6c91-973b-43aa-a93d-1ece7fc68f20"
+      ],
+      "settings": {
+        "title": "Shop By Category",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "columns_order": "reverse",
+        "columns_layout": "horizontal",
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "51edaac0-055f-47cb-879e-af5ca25cd364": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "featured-products",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_txt": "",
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "force-accent-btn": true,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4fc056af-819e-4eec-990f-2ccf90b55762": {
+      "type": "collapsible-text",
+      "settings": {
+        "visible_text": "<h2>FULL INVENTORY TO HELP YOU FIND THE RIGHT PRODUCTS<\/h2><p>Proper aeration can make a huge difference for any pond or water feature. At Living Water Aeration, we're your complete stop for all pond fountain and aerator needs. We offer a huge, constantly growing inventory of pond fountains and aerators. We specialize in aeration systems and fountains for ponds and lakes but we also have a huge selection of pond equipment and supplies, including pond pumps, waterfall kits, pond kits, and more. Even if you don't find exactly what you need or aren't sure what you need, we can custom design an aeration system to fit any application for you.<\/p>",
+        "collapsed_text": "<p>Our inventory is constantly growing to ensure you can find what you need. We want to help you make sure you'll find the right item at the right price for any pond or water feature needs. We offer a variety of different aeration systems, including shallow pond aerators, koi pond aerators, and solar aerators. We also have aeration accessories you can use to fix or expand your current aeration system. We have a huge selection of accessories for pond fountains and water gardens as well, including pond kits, pondless waterfalls, statuary fountains, and underwater lighting. If you're worried about cleaning or controlling algae, we have many fish pond supplies available at excellent prices. Check out the pond dye, water agitators, beneficial bacteria, and algae and weed control that we offer.<\/p><h2>ANSWERS TO ANY QUESTIONS YOU MIGHT HAVE<\/h2><p>If you're just getting started, you'll likely have a ton of questions about what works best for your situation, what the differences are between the various kinds of aerators, or how to effectively aerate a deep pond or lake on your property. Our website includes answers to all of these questions and more. As the lake and pond aeration experts, at Living Water Aeration, we're happy to help you select an aeration system that's going to be best for you. Check our website for common questions and answers or contact us for more personalized assistance. We want to help you make sure you have what you need.<\/p><h2>CUSTOM DESIGNS TO HELP MAKE SURE YOU HAVE THE RIGHT SOLUTION<\/h2><p>Off the shelf solutions work for a wide range of applications, but what if you don't see exactly what you need? If you don't see what you need or you're not sure what's best for your situation, contact us today. We can custom design aeration systems to fit any application, from larger ponds to koi ponds. We'll help make sure you have exactly what you need for your pond or lake. Pond aeration is crucial. Don't stick with unattractive or ineffective water features any longer. Instead, let our experts help you create the proper aeration system for your pond or lake and help you choose water features that you'll love. We offer some of the best prices online, but you won't want to miss out on our newsletter to keep on top of sales and special pricing. Give us a call today to get help with any pond and fountain plans you might have.<\/p>",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/T0AQSMNNR-U03E59ZGWGH-18e55c2e350c-512.jpg",
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_height": false,
+            "title": "E.J Domingue",
+            "subtitle": "Director of Sales",
+            "text": "<p>EJ has been at the company for 7 years and is an expert on ponds!\"Ponds looks so peaceful to me. Growing up we lived in the country and love to go hunting and fishing. The outdoors is God's country to me.\"<\/p>",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "pond-guru-col",
+            "col_html": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/274381340_3182117898776986_945841640782998494_n.jpg",
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_height": false,
+            "title": "Rachel Carter",
+            "subtitle": "Customer Servicer Manager",
+            "text": "<p>Rachel has been with Living Water Aeration for 6 years and is the ultimate pond wiz!\"I love the beauty of ponds and water. I lived on the vermilion river growing up in Louisiana. I like to fish, I love hiking and walking outdoors. I love trees. I enjoy escaping to the woods and mountains. I love staying in cabins.\"<\/p>",
+            "link_label": "",
+            "link": "",
+            "isButton": false,
+            "col_class": "pond-guru-col",
+            "col_html": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2"
+      ],
+      "settings": {
+        "title": "Meet The Pond Gurus!",
+        "heading_size": "h2",
+        "heading_type": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "col_bg_color": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9f035a06-f5fa-4d54-930e-5fcafb7199ea": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog Posts",
+        "heading_size": "h2",
+        "blog": "news",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "11de2e71-b218-47da-b701-04e62e73d4ed": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16803762405618__11de2e71-b218-47da-b701-04e62e73d4ed-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "NOT SURE WHAT AERATOR YOU NEED?",
+            "heading_size": "h1"
+          }
+        },
+        "template--16803762405618__11de2e71-b218-47da-b701-04e62e73d4ed-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let us Help!<\/p>"
+          }
+        },
+        "template--16803762405618__11de2e71-b218-47da-b701-04e62e73d4ed-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Instant Aerator Recommendation",
+            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16803762405618__11de2e71-b218-47da-b701-04e62e73d4ed-heading-1",
+        "template--16803762405618__11de2e71-b218-47da-b701-04e62e73d4ed-text-1",
+        "template--16803762405618__11de2e71-b218-47da-b701-04e62e73d4ed-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "197f6d0b-d60a-4d66-b00d-adf9ada6fe68",
+    "54da8c80-043a-4497-bbb0-83bc0fe92687",
+    "71a20048-7e70-40ee-a0cb-304666c6c166",
+    "featured_collection",
+    "a71a405a-22c9-487b-bd5e-9e0cc177ca19",
+    "51edaac0-055f-47cb-879e-af5ca25cd364",
+    "4fc056af-819e-4eec-990f-2ccf90b55762",
+    "multicolumn",
+    "9f035a06-f5fa-4d54-930e-5fcafb7199ea",
+    "11de2e71-b218-47da-b701-04e62e73d4ed"
+  ]
+}

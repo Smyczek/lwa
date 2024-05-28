@@ -1,0 +1,104 @@
+{{ 'component-header-slogan.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width">
+  <div class="header-slogan">
+    {% assign count = 0 %}
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'slogan' -%}
+            {% assign count = count | plus: 1 %}
+              <div class="header-slogan-item header-slogan-item-{{ count }}">
+
+                {% if block.settings.icon == 'car' %}
+                    <span class="icon icon-shipping"></span>
+                    {% if block.settings.info_text != blank and block.settings.icon != 'stars' %}
+                      <div class="slogan-with-info">
+                       <span class="header-slogan-label">{{ block.settings.text }}</span>
+                        {% if block.settings.info_text != blank %}<small>{{ block.settings.info_text }}</small>{% endif %}
+                      </div>
+                    {% else %}
+                      <span class="header-slogan-label">{{ block.settings.text }}</span>
+                    {% endif %}
+                {% endif %}
+
+                {% if block.settings.icon == 'guarantee' %}
+                    <span class="icon icon-guarantee"></span>
+                    {% if block.settings.info_text != blank and block.settings.icon != 'stars' %}
+                      <div class="slogan-with-info">
+                       <span class="header-slogan-label">{{ block.settings.text }}</span>
+                        {% if block.settings.info_text != blank %}<small>{{ block.settings.info_text }}</small>{% endif %}
+                      </div>
+                    {% else %}
+                      <span class="header-slogan-label">{{ block.settings.text }}</span>
+                    {% endif %}
+                {% endif %}
+
+                {% if block.settings.icon == 'stars' %}
+                    <a class="nolink"  target="_blank" href="https://www.ekomi-us.com/review-pond-aeration.html"><img class="stars" width="113" height="22" src="{{ 'stars_1.svg' | asset_url }}" alt="Rating" loading="lazy"><span class="header-slogan-label header-sm">{{ block.settings.text }}</span></a>
+                {% endif %}
+
+              </div>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "header-slogan",
+  "max_blocks": 3,
+  "class": "header-slogan-section",
+  "blocks": [
+    {
+      "type": "slogan",
+      "name": "Slogan",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "info_text",
+          "label": "Info Text"
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "options": [
+            {
+              "value": "none",
+              "label": "None"
+            },
+            {
+              "value": "car",
+              "label": "Car"
+            },
+            {
+              "value": "guarantee",
+              "label": "Guarantee"
+            },
+             {
+              "value": "stars",
+              "label": "Stars"
+            }
+          ],
+          "default": "none",
+          "label": "Icon"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "slogan"
+      },
+      {
+        "type": "slogan"
+      }
+    ]
+  }
+}
+{% endschema %}

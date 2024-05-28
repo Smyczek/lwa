@@ -1,0 +1,232 @@
+{
+  "sections": {
+    "1680622710a6f419d6": {
+      "type": "apps",
+      "blocks": {
+        "f7710601-184e-4a6d-8d4d-226b75eee0b0": {
+          "type": "shopify:\/\/apps\/categories-uncomplicated\/blocks\/category-breadcrumbs\/2d8e3108-b94b-4b0c-8f03-e3726bad87be",
+          "settings": {
+            "override_linktext_colour": false,
+            "linktext_colour": "#0000ee",
+            "separator_colour": "#555555",
+            "producttitle_colour": "#555555",
+            "spacing_above": 0,
+            "spacing_below": 0,
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "separator_char_code": "rsaquo;",
+            "hide_old_breadcrumb": false,
+            "show_catroot": true,
+            "link_catroot": "\/",
+            "text_catroot": "Home",
+            "show_tags": true,
+            "show_finalbread_as_textonly": false,
+            "insert_jsonld": true,
+            "insert_shortlinkfix": true,
+            "prod_multicat_sel": "last",
+            "link_catall": "\/collections\/all",
+            "text_catall": "All Products",
+            "show_product_title": true,
+            "truncate_limit": 0,
+            "prod_ignore_referrer": true,
+            "old_breadcrumb_class": "breadcrumb"
+          }
+        }
+      },
+      "block_order": [
+        "f7710601-184e-4a6d-8d4d-226b75eee0b0"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "fac81983-bb73-45f3-b5da-1a864f003609": {
+          "type": "quick_links",
+          "settings": {
+          }
+        },
+        "4c4b8ba5-8a60-451f-b214-9577922e264f": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "5bc4ff38-2a8d-481b-9373-bc2e726a588c": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "complementary_UD8nt7": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Accessories",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "dots"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "fac81983-bb73-45f3-b5da-1a864f003609",
+        "4c4b8ba5-8a60-451f-b214-9577922e264f",
+        "5bc4ff38-2a8d-481b-9373-bc2e726a588c",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "complementary_UD8nt7",
+        "buy_buttons",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 32
+      }
+    },
+    "0dc63a30-50e8-4d2b-b3c2-3e4927cb2672": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.description %}\n<div id=\"product-description\">\n<div class=\"page-width\">\n<div class=\"title-wrapper title-wrapper--no-top-margin\">\n<h2 class=\"title inline-richtext h2\">Product Description<\/h2>\n<\/div><\/div>\n<div class=\"page-width\">\n<div class=\"color-background-2 default-paddings\">\n{{ product.description }}\n<\/div>\n<\/div>\n<\/div>\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "00c8ceb6-ce98-4e55-beb8-a9cd3bf9e71f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.metafields.custom.product_video.value %}\n<div id=\"product-video\" class=\"page-width\"><div class=\"title-wrapper title-wrapper--no-top-margin\">\n          <h2 class=\"title inline-richtext h2\">Video<\/h2>\n        <\/div><\/div>\n<div class=\"page-width\"><div class=\"responsive-video\">{{product.metafields.custom.product_video.value}}\n<\/div><\/div>\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7e190063-9562-4119-ab2d-20b9b089f7d4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.metafields.custom.manuals.value %}\n<div id=\"manuals\" class=\"page-width\"><div class=\"title-wrapper title-wrapper--no-top-margin\">\n          <h2 class=\"title inline-richtext h2\">Owner's Manual<\/h2>\n        <\/div><\/div>\n<div class=\"page-width\">\n<div class=\"color-background-2 default-paddings\">\n<div class=\"manuals-list\">\n{% for manual in product.metafields.custom.manuals.value %}\n<div class=\"manual-download\">\n<a href=\"{{ manual.url }}\"  target=\"_blank\" download>{% render 'icon-manual' %}<\/a>\n<\/div>\n{% endfor %}\n<\/div>\n<\/div>\n<\/div>\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c00b2728-2325-4e42-a071-d541e8420341": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.metafields.stamped.reviews_average != blank %}\n<div class=\"page-width\"><h2 class=\"title inline-richtext h2\">Reviews<\/h2>\n<\/div>\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "b32e48f6-39d7-454e-9e38-bd165485a50f": {
+      "type": "products-accessories",
+      "disabled": true,
+      "settings": {
+        "heading": "Accessories For This Product",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1680038864bbcef81e": {
+      "type": "apps",
+      "blocks": {
+        "d967ff77-bdae-44d8-bb46-887cee67b1ad": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "d967ff77-bdae-44d8-bb46-887cee67b1ad"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "1680622710a6f419d6",
+    "main",
+    "0dc63a30-50e8-4d2b-b3c2-3e4927cb2672",
+    "00c8ceb6-ce98-4e55-beb8-a9cd3bf9e71f",
+    "7e190063-9562-4119-ab2d-20b9b089f7d4",
+    "c00b2728-2325-4e42-a071-d541e8420341",
+    "b32e48f6-39d7-454e-9e38-bd165485a50f",
+    "1680038864bbcef81e"
+  ]
+}

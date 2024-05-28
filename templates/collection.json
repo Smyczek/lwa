@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "16806216667fc49e81": {
+      "type": "apps",
+      "blocks": {
+        "2c56b9b4-2e78-4cae-89df-42010ae1b53d": {
+          "type": "shopify:\/\/apps\/categories-uncomplicated\/blocks\/category-breadcrumbs\/2d8e3108-b94b-4b0c-8f03-e3726bad87be",
+          "settings": {
+            "show_catroot": true,
+            "link_catroot": "\/",
+            "text_catroot": "Home",
+            "show_tags": true,
+            "show_finalbread_as_textonly": true,
+            "separator_char_code": "rsaquo;",
+            "sep_plus_class": "breadcrumb__sep_plus5",
+            "insert_jsonld": true,
+            "insert_shortlinkfix": true,
+            "prod_ignore_referrer": false,
+            "prod_multicat_sel": "first",
+            "link_catall": "\/collections\/all",
+            "text_catall": "All Products",
+            "show_product_title": true,
+            "truncate_limit": 0
+          }
+        }
+      },
+      "block_order": [
+        "2c56b9b4-2e78-4cae-89df-42010ae1b53d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 36,
+        "columns_desktop": 3,
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-2"
+      }
+    },
+    "dfcd8c2d-777f-4e2d-a8f4-e9b49c4b71bd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16803762110706__dfcd8c2d-777f-4e2d-a8f4-e9b49c4b71bd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "NOT SURE WHAT AERATOR YOU NEED?",
+            "heading_size": "h1"
+          }
+        },
+        "template--16803762110706__dfcd8c2d-777f-4e2d-a8f4-e9b49c4b71bd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let us Help!<\/p>"
+          }
+        },
+        "template--16803762110706__dfcd8c2d-777f-4e2d-a8f4-e9b49c4b71bd-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Instant Aerator Recommendation",
+            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16803762110706__dfcd8c2d-777f-4e2d-a8f4-e9b49c4b71bd-heading-1",
+        "template--16803762110706__dfcd8c2d-777f-4e2d-a8f4-e9b49c4b71bd-text-1",
+        "template--16803762110706__dfcd8c2d-777f-4e2d-a8f4-e9b49c4b71bd-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "16806216667fc49e81",
+    "product-grid",
+    "banner",
+    "dfcd8c2d-777f-4e2d-a8f4-e9b49c4b71bd"
+  ]
+}

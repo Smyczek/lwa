@@ -1,0 +1,66 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "08a206f3-ca57-498b-8f4a-b9fbd65974da": {
+          "type": "html",
+          "settings": {
+            "heading": "Connect With Us",
+            "section_html": "<ul class=\"list-unstyled\">\n<li class=\"link link--text list-menu__item list-menu__item--link\">4400 Ambassador Caffery, Ste. A<br> \u2028Box 323 Lafayette, LA. 70508<\/li>\n<li><a class=\"link link--text list-menu__item list-menu__item--link\" href=\"tel:18887752402\">1.888.775.2402<\/a><\/li>\n<li><a class=\"link link--text list-menu__item list-menu__item--link\" href=\"mailto:support@livingwateraeration.zendesk.com\">Email Us<\/a><\/li>\n<li><a class=\"link link--text list-menu__item list-menu__item--link\" href=\"\/pages\/about-us\">About Us<\/a><\/li>\n<\/ul>"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "footer"
+          }
+        },
+        "73170e0a-3f11-4eee-bad8-2e5cd96ecf22": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Customer Service",
+            "menu": "footer-menu-2"
+          }
+        },
+        "2c6b1b7f-b0ac-428f-8d48-4dc648a7a56c": {
+          "type": "html",
+          "settings": {
+            "heading": "",
+            "section_html": "<div class=\"ourServices\">\n<div class=\"ourServiceImg service-bbb\">\n  <a href=\"https:\/\/www.bbb.org\/us\/la\/lafayette\/profile\/pond-supplies\/living-water-aeration-1045-90006023\" target=\"_blank\" aria-label=\"Accredited Business\">\n    <img srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0080\/8861\/7040\/files\/BBB-logo.svg?v=1679919023&amp;width=330, \/\/cdn.shopify.com\/s\/files\/1\/0080\/8861\/7040\/files\/BBB-logo.svg?v=1679919023&amp;width=660 2x\" src=\"\/\/cdn.shopify.com\/s\/files\/1\/0080\/8861\/7040\/files\/BBB-logo.svg?v=1679919023&amp;width=760\" alt=\"Accredited Business BBB\" loading=\"lazy\" width=\"181\" height=\"63\">\n  <\/a>\n<\/div>\n\n<div class=\"ourServiceImg service-ekomi\">\n<!-- eKomiWidget START -->\n    <div id=\"eKomiWidget_default\"><\/div>\n    <!-- eKomiWidget END -->\n\n\n\n    <!-- eKomiLoader START, only needed once per page -->\n    <script type=\"text\/javascript\">\n    setTimeout(\n      function(){\n    eKomiIntegrationConfig = new Array(\n    {certId:'05E712BB266CF0E'}\n    );\n    if(typeof eKomiIntegrationConfig != \"undefined\"){for(var eKomiIntegrationLoop=0;eKomiIntegrationLoop<eKomiIntegrationConfig.length;eKomiIntegrationLoop++){\n    var eKomiIntegrationContainer = document.createElement('script');\n    eKomiIntegrationContainer.type = 'text\/javascript'; eKomiIntegrationContainer.defer = true;\n    eKomiIntegrationContainer.src = (document.location.protocol=='https:'?'https:':'http:') +\"\/\/connect.ekomi.de\/integration_1683760901\/\" + eKomiIntegrationConfig[eKomiIntegrationLoop].certId + \".js\";\n    document.getElementsByTagName(\"head\")[0].appendChild(eKomiIntegrationContainer);\n    }\n    }else{\n      if('console' in window){ console.error('connectEkomiIntegration - Cannot read eKomiIntegrationConfig'); } \n        }\n},15000);\n    <\/script>\n    <!-- eKomiLoader END, only needed once per page -->\n<\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "08a206f3-ca57-498b-8f4a-b9fbd65974da",
+        "footer-1",
+        "73170e0a-3f11-4eee-bad8-2e5cd96ecf22",
+        "2c6b1b7f-b0ac-428f-8d48-4dc648a7a56c"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "before_footer": true,
+        "before_footer_domain": true,
+        "before_footer_txt": "Water Aerator Systems for Your Pond",
+        "newsletter_enable": true,
+        "newsletter_heading": "Join Pond Addicts and get 5% Off on Your First Order",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "social_heading": "Find Us On",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 48,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

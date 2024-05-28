@@ -1,0 +1,125 @@
+<section id="sitemap">
+  <div class="page-width">
+    <div class="pageContent">
+      <div class="rte">
+        <div class="sitemap-content">
+          <div style="margin-bottom: 2rem;">
+            <h2 style="margin-top: 0;">Shop</h2>
+            {%- for link in linklists.main-menu.links -%}
+              {%- if link.links != blank -%}
+                <a href="{{ link.url }}" class="unstyled-linkk h3">
+                  {{ link.title | escape }}
+                </a>
+                <ul
+                  class="sitemap-collections"
+                  role="list"
+                  tabindex="-1"
+                >
+                  {%- for childlink in link.links -%}
+                    <li>
+                      {%- if childlink.links == blank -%}
+                        <a
+                          href="{{ childlink.url }}"
+                          class="sitemap-collections-item unstyled-linkk"
+                        >
+                          {{ childlink.title | escape }}
+                        </a>
+                      {%- else -%}
+                          <a href="{{ childlink.url }}" class="unstyled-linkk">
+                            {{ childlink.title | escape }}
+                          </a>
+                          <ul
+                            class="sitemap-collection-submenu"
+                          >
+                            {%- for grandchildlink in childlink.links -%}
+                              <li>
+                                <a
+                                  href="{{ grandchildlink.url }}"
+                                  class="sitemap-collection-submenu-item unstyled-linkk"
+                                >
+                                  {{ grandchildlink.title | escape }}
+                                </a>
+                              </li>
+                            {%- endfor -%}
+                          </ul>
+                      {%- endif -%}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+
+          <div>
+            <h2 style="margin-top: 0;">Blog</h2>
+            <ul>
+              {%- for article in blogs.news.articles -%}
+                <li><a class="unstyled-linkk" href="{{ article.url }}">{{ article.title }}</a></li>
+              {%- endfor -%}
+            </ul>
+          </div>
+
+          <div class="sitemap-pages">
+            <h2 style="margin-top: 0;">Pages</h2>
+            <ul>
+            {%- for page in pages -%}
+              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {%- endfor -%}
+            </ul>
+          </div>
+
+        </div>
+      </div><!-- .rte -->
+    </div><!-- .pageContent -->
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Sitemap",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": [
+      "header",
+      "footer"
+    ]
+  },
+  "presets": [
+    {
+      "name": "Sitemap"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+  .sitemap-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .sitemap-content {
+    gap: 2rem;
+  }
+
+  @media screen and (min-width: 750px) {
+    .sitemap-content div {
+      width: calc(33% - 2rem);
+    }
+  }
+
+  .rte .sitemap-content ul {
+    list-style-position: outside;
+  }
+  
+  .sitemap-pages a { 
+    display: inline-block;
+    text-transform: lowercase; 
+  }
+  
+  .sitemap-pages a:first-letter {
+    text-transform: uppercase;
+  }
+{% endstylesheet %}

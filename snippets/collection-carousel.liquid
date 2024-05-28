@@ -1,0 +1,73 @@
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+
+{% liquid 
+  for link in links
+    if link.title == collection.title
+      assign coll_has_links = true
+      assign sub_categories = link.links
+      assign product_per_page = 4
+      assign number_of_slides = link.links | size | plus: 0.0 | divided_by: product_per_page | ceil
+    endif
+  endfor 
+%}
+
+{% if coll_has_links %}
+{%- capture sizes -%}
+(min-width: 1080px) 237px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)
+{%- endcapture -%}
+
+  <carousel-component class="slider-mobile-gutter collection-carousel-component">
+    <div id="Slider-carousel-{{ section.id }}" class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere" role="list"{% if number_of_slides > 1 %} aria-label="{{ 'general.slider.name' | t }}"{% endif %}>
+      {%- for i in (1..number_of_slides) -%}
+        <div id="Slide-carousel-{{ forloop.index }}" class="collection-carousel complementary-slide complementary-slide--standard slider__slide slideshow__slide" tabindex="-1" role="group"{% if number_of_slides > 1 %} aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"{% endif %}>
+          <ul class="list-unstyled grid grid--4-col" role="list">
+            {% for sub_cat in sub_categories limit: product_per_page offset: continue %}
+                <li class="grid-slide__item underline-links-hover">
+                  <div class="card card--card card--media">
+                    <div class="card__inner ratio" style="--ratio-percent: 100%;">
+                      <div class="card__media">
+                        <div class="media">
+                          {% assign catHandle = sub_cat.url | split: '/' | last %}
+                          {%- if collections[catHandle].image != blank -%}
+                          {{ collections[catHandle].image | image_url: width: 236 | image_tag:
+                            loading: 'lazy',
+                            sizes: sizes,
+                            widths: '236, 493, 600',
+                            style: "width: 168px; height: auto;"
+                          }}
+                          {%- else -%}
+                          {{ 'image' | placeholder_svg_tag }}
+                          {%- endif -%}
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card__content">
+                      <div class="card-information">
+                      <a class="stretched-link full-unstyled-link" href="{{ sub_cat.url }}">{{ sub_cat.title }}</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              <script>console.log({{ sub_cat | json }});</script>
+            {% endfor %}
+          </ul>
+        </div>
+      {%- endfor -%}
+    </div>
+    {%- if number_of_slides > 1 -%}
+      <div class="slider-buttons no-js-hidden">
+        <button type="button" class="slider-button carousel-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}"><i class="icon icon-left"></i></button>
+        <button type="button" class="slider-button carousel-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}"><i class="icon icon-right"></i></button>
+      </div>
+    {%- endif -%}
+
+    {% if show_counter %}
+      <div class="slider-counter slider-counter--counter caption">
+        <span class="slider-counter--current">1</span>
+        <span aria-hidden="true"> / </span>
+        <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+        <span class="slider-counter--total">{{ number_of_slides }}</span>
+      </div>
+    {% endif %}
+  </carousel-component>
+{% endif %}

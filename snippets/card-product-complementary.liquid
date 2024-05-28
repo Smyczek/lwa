@@ -1,0 +1,115 @@
+{% comment %}
+  Renders a product card
+
+  Accepts:
+  - card_product: {Object} Product Liquid object (optional)
+  - media_aspect_ratio: {String} Size of the product image card. Values are "square" and "portrait". Default is "square" (optional)
+  - section_id: {String} The ID of the section that contains this card.
+  - forloop_index: {Integer} The index of the card in the loop.
+  Usage:
+  {% render 'card-product', show_vendor: section.settings.show_vendor %}
+{% endcomment %}
+
+{{ 'component-rating.css' | asset_url | stylesheet_tag }}
+{{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
+
+{%- if card_product and card_product != empty -%}
+  {%- liquid
+    assign ratio = 1
+    if card_product.featured_media and media_aspect_ratio == 'portrait'
+      assign ratio = 0.8
+    elsif card_product.featured_media and media_aspect_ratio == 'adapt'
+      assign ratio = card_product.featured_media.aspect_ratio
+    endif
+    if ratio == 0 or ratio == null
+      assign ratio = 1
+    endif
+  -%}
+  {% liquid 
+    if card_product.has_only_default_variant
+      assign variantId = card_product.variants[0].id
+    else
+      assign variantId = card_product.id
+    endif
+  %}
+  <div id="Complementary-product-{{ variantId }}" class="product-complementary" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
+    <div class="product-complementary-radio">
+      <input type="checkbox" name="{{ variantId }}">
+    </div>
+
+    {%- if card_product.featured_media -%}
+    <div class="media media--transparent ratio" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;">
+      {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+      <img
+        srcset="
+          {%- if card_product.featured_media.width >= 165 -%}{{ card_product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
+          {%- if card_product.featured_media.width >= 360 -%}{{ card_product.featured_media | image_url: width: 360 }} 360w,{%- endif -%}
+          {%- if card_product.featured_media.width >= 533 -%}{{ card_product.featured_media | image_url: width: 533 }} 533w,{%- endif -%}
+          {%- if card_product.featured_media.width >= 720 -%}{{ card_product.featured_media | image_url: width: 720 }} 720w,{%- endif -%}
+          {%- if card_product.featured_media.width >= 940 -%}{{ card_product.featured_media | image_url: width: 940 }} 940w,{%- endif -%}
+          {%- if card_product.featured_media.width >= 1066 -%}{{ card_product.featured_media | image_url: width: 1066 }} 1066w,{%- endif -%}
+          {{ card_product.featured_media | image_url }} {{ card_product.featured_media.width }}w
+        "
+        src="{{ card_product.featured_media | image_url: width: 533 }}"
+        sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+        alt="{{ card_product.featured_media.alt | escape }}"
+        class="motion-reduce"
+        {% unless lazy_load == false %}
+          loading="lazy"
+        {% endunless %}
+        width="{{ card_product.featured_media.width }}"
+        height="{{ card_product.featured_media.height }}"
+      >
+    </div>
+    {% endif %}
+
+    <div class="product-complementary-content">
+      
+      <a href="{{ card_product.url }}"
+        class="full-unstyled-link">{{ card_product.title }}</a>
+      {% render 'price', product: card_product, price_class: '' %}
+
+      {% if card_product.variants.size > 1 %}
+        <div class="select">
+          <select name="variant_id" id="variant-select-{{ variantId }}" class="select__select product-variants">
+            {% for variant in card_product.variants %}
+              <option value="{{ variant.id }}">{{ variant.title }}</option>
+            {% endfor %}
+          </select>
+          {% render 'icon-caret' %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{%- endif -%}
+
+<style>
+  .product product-recommendations .slider-button {
+    display: block !important;
+  }
+  .product-complementary {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    position: relative;
+    gap: 16px;
+  }
+  .product-complementary-radio input {
+    width: 20px;
+    height: 20px;
+    margin: 8px 0 0 0;
+  }
+  .product-complementary .media {
+    width: 20%;
+    height: 100%;
+  }
+  .product-complementary .product-complementary-content {
+    width: 70%;
+  }
+  .product-complementary .media img {
+    height: 90%;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+  }
+</style>

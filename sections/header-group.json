@@ -1,0 +1,93 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "top-left",
+        "menu": "main-menu",
+        "mega_menu_images_toggle": "none",
+        "mega_menu_images_title": false,
+        "megamenu_backdrop_toggle": true,
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "reduce-logo-size",
+        "show_line_separator": true,
+        "color_scheme": "accent-2",
+        "phone_txt": "1.888.775.2402",
+        "phone": "tel:1.888.775.2402",
+        "link_1_txt": "Contact Us",
+        "link_1": "shopify:\/\/pages\/contact-us",
+        "link_2_txt": "About Us",
+        "link_2": "shopify:\/\/pages\/about-us",
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "header-slogan": {
+      "type": "header-slogan",
+      "blocks": {
+        "a66d8317-a648-4ab1-8a4b-31b4bf7e8b33": {
+          "type": "slogan",
+          "settings": {
+            "text": "Free Shipping on Orders Over $99*",
+            "info_text": "*Excludes motor freight and special order items.",
+            "icon": "car"
+          }
+        },
+        "8e304526-3a17-4939-bc9c-965006efea63": {
+          "type": "slogan",
+          "settings": {
+            "text": "Best Price Guarantee",
+            "info_text": "",
+            "icon": "guarantee"
+          }
+        },
+        "700a2d3f-8d9b-40cc-98bf-3c17a59e4e82": {
+          "type": "slogan",
+          "settings": {
+            "text": "4.7\/5.0 626 Reviews",
+            "info_text": "",
+            "icon": "stars"
+          }
+        }
+      },
+      "block_order": [
+        "a66d8317-a648-4ab1-8a4b-31b4bf7e8b33",
+        "8e304526-3a17-4939-bc9c-965006efea63",
+        "700a2d3f-8d9b-40cc-98bf-3c17a59e4e82"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "header-slogan"
+  ]
+}
